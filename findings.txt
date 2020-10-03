@@ -27,3 +27,13 @@ Declaration files, if you’re not familiar, are just files that describe the sh
 https://www.youtube.com/watch?v=Ht4kTcSh92I
 
 https://www.udemy.com/course/understanding-typescript/?couponCode=D_1020
+
+
+
+
+
+https://developer.okta.com/blog/2018/11/15/node-express-typescript
+
+
+
+https://developer.okta.com/blog/2018/11/15/node-express-typescript
