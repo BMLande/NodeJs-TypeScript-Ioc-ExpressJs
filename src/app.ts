@@ -1,11 +1,12 @@
-import dotenv from "dotenv";
 import express from "express";
-import path from "path";
+import dotenv from "dotenv";
 import * as bodyParser from 'body-parser';
+import logger from './shared/Logger';
 
 
 class App {
-    public app: express.Application;
+    private app: express.Application;
+    private port: number = 3000;
 
     constructor(controllers: any) {
         this.app = express();
@@ -17,6 +18,7 @@ class App {
 
     // ADD ALL MIDDLEWARE INITIALIZATIIN HERE
     private initializeMiddlewares() {
+        dotenv.config();
         this.app.use(bodyParser.json());
     }
 
@@ -27,9 +29,10 @@ class App {
     }
 
     // SERVER START METHODE DEFINATION
-    public listen(port: string) {
-        this.app.listen(port, () => {
-            console.log(`App listening on the port ${port}`);
+    public listen() {
+        console.log(this.port);
+        this.app.listen(this.port, () => {
+            logger.info(`App listening on the port : ${this.port}`);
         });
     }
 
