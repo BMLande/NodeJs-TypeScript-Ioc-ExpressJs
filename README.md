@@ -33,7 +33,7 @@ A module that extends the Node.js file system (fs) module with features such as 
 ### rimraf
 Use to recursively remove folders.
 
-####npm-run-all
+### npm-run-all
 Use to execute multiple npm scripts sequentially or in parallel.
 
 ### nodemon
@@ -44,10 +44,8 @@ A handy tool for running Node.js in a development environment. Nodemon watches f
 Node.js applications typically use environment variables for configuration.
 However, managing environment variables can be a chore. A popular module for managing application configuration data is dotenv.
 
-####
 
-
-IMPORTANT LINKS
+### IMPORTANT LINKS
 
 https://www.youtube.com/watch?v=Ht4kTcSh92I
 
@@ -61,7 +59,7 @@ https://www.velotio.com/engineering-blog/set-up-production-ready-rest-nodejs-api
 
 ---------------------------------
 
-STEPS
+### STEPS
 
 1. REST API WRITING
 
@@ -83,6 +81,7 @@ STEPS
 
 ------------------------------------
 
+### What to achive
 
 - SERVERLSSS ARCHITECTURE
 
