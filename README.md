@@ -7,7 +7,7 @@
 
 This is a TS compiler which transpile Ts to Js , For thus needs to define config Object , find tsconfig.ts
 
-npm install --save-dev typescript
+`npm install --save-dev typescript`
 
 
 ### tslint
@@ -15,7 +15,7 @@ npm install --save-dev typescript
 This Package help finding code errors at writing time
 If you’re not familiar with linting, it is a code analysis tool to alert you to potential problems in your code beyond syntax issues.
 
-npm install --save-dev tslint
+`npm install --save-dev tslint`
 
 ### @Types/anyPackageName
 
