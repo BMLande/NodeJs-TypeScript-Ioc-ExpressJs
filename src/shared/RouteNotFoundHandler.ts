@@ -4,21 +4,16 @@
  * Changes :
  */
 
-/**
- *Author : Bhagvat Lande , Date
- * Description : 
- * Changes : 
- */
-
 import * as express from 'express';
 import { ResponseCodes as RESPONSE_CODES } from './StatusCode';
 import { Response } from './ResponseEntity';
 
 class RouteNotFoundHandler {
-    private router = express.Router();
+    public router: any;
     private ResponseData = new Response();
 
     constructor() {
+        this.router = express.Router()
         this.intializeRoutes();
     }
 
@@ -31,6 +26,7 @@ class RouteNotFoundHandler {
             this.ResponseData.generateResponse(false, "Requested Route Not Found", {})
         )
     }
+
 }
 
 export default RouteNotFoundHandler;
