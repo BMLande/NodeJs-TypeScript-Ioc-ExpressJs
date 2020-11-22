@@ -7,7 +7,6 @@ import logger from './shared/Logger';
 class App {
     private app: express.Application;
     private port: number = 3000;
-
     constructor(controllers: any) {
         this.app = express();
         //  CALL MIDDLEWARE INITIALIZATION
